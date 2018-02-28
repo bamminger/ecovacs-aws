@@ -124,7 +124,7 @@ We are almost there...
 
 
 ## Final steps
-* Gettig rid of the hard coded variables.
+* Getting rid of the hard coded variables.
     * Create AWS lambda function environment variables
     * Use them in your python code
         ```python
