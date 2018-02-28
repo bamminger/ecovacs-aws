@@ -16,7 +16,7 @@ This is a short list of instructions to be able to use the Ecovacs API to contro
 
 
 ## Getting started
-There is a great Github repository called "[sucks](https://github.com/wpietri/sucks)" which offers a wrapper for the Ecovacs API. Unfortunatelly AWS Lambda is not possible to run the package out of the box.
+There is a great Github repository called "[sucks](https://github.com/wpietri/sucks)" which offers a wrapper for the Ecovacs API. Unfortunatelly AWS Lambda is not able to run the package out of the box (see "sucks-Modifications" chapter).
 Therefore we have to make some modifications. Before we do that you should install "[sucks](https://github.com/wpietri/sucks)" and try out the command line possibilities.
 
 
