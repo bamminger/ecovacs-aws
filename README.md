@@ -52,7 +52,7 @@ Your robot should start cleaning now and you see the text "Action executed" in y
 So far so good, the API is working and you can control your robot.
 Nevertheless I had some issues which requires modifications to get it running properly.
 
-1. The script never ends
+1. The script never ends  
     The script keeps running after it has started the robot successfully. That seems to be caused by a Ping which is queued every few seconds in the sucks source code. 
 
     ```python
@@ -64,7 +64,7 @@ Nevertheless I had some issues which requires modifications to get it running pr
     After applying the change for the connection which is shown in [another sample file](/src/ecovacs-test-improved.py), the script should end properly.
 
 
-2. Crypto not working in AWS Lambda
+2. Crypto not working in AWS Lambda  
     Using the sucks package out of the box doesn't work in AWS Lambda functions. An error occurs that there is a problem with the crypto module:
 
     ```"Cannot load native module 'Crypto.Cipher._raw_ecb': Trying '_raw_ecb.cpython-36m-x86_64-linux-gnu.so': /var/task/Crypto/Util/../Cipher/_raw_ecb.cpython-36m-x86_64-linux-gnu.so: cannot open shared object file: No such file or directory, Trying '_raw_ecb.abi3.so': /var/task/Crypto/Util/../Cipher/_raw_ecb.abi3.so: cannot open shared object file: No such file or directory, Trying '_raw_ecb.so': ```
