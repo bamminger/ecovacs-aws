@@ -132,6 +132,10 @@ We are almost there...
         os.environ['VARIABLE_NAME']
         ```
 * Use different input parameter to control your Ecovacs
+* Remove the following unused folders from your zip to save some MB
+    * _\_pycache_\_
+    * \_pytest
+    * Crypto
 
 
 ## Donation  
