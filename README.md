@@ -138,6 +138,10 @@ We are almost there...
     * Crypto
 
 
+## Why?
+All that effort helps you to control your Ecovacs vacuum cleaner with your own Alexa skill.
+
+
 ## Donation  
 If you like my work, please consider buying me a coffee
 <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/bamminger"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:5px">Buy me a coffee</span></a>
